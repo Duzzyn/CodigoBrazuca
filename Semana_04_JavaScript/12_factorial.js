@@ -1,5 +1,11 @@
-function testando() {
-    console.log("Polkadot")
+let resultado = 1;
+
+function fatorial(num) {
+    for(let i = num; i > 0; i--) {
+        resultado *= i 
+    }
+    return resultado;
 }
 
-testando()
+
+console.log(fatorial(4))
